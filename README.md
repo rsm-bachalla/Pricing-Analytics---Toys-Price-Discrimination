@@ -1,4 +1,4 @@
-## Toys-Price-Discrimination ##
+### Toys-Price-Discrimination 
 
 **Overview**
 This project utilizes data analytics to explore pricing strategies for Maven Toys, with a dataset spanning 50 retail stores in Mexico from January 2022 to September 2023. We focus on how various factors like product category, cost, and market demand influence pricing decisions for diverse products including figurines, collectibles, and plush toys.
