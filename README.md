@@ -1,1 +1,1 @@
-# Pricing-Analytics---Toys-Price-Discrimination
+# Toys-Price-Discrimination
