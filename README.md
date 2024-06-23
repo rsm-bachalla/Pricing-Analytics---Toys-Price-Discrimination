@@ -1,34 +1,29 @@
-### Toys-Price-Discrimination 
+### Toys-Price-Discrimination
 
-**Overview**
-This project utilizes data analytics to explore pricing strategies for Maven Toys, with a dataset spanning 50 retail stores in Mexico from January 2022 to September 2023. We focus on how various factors like product category, cost, and market demand influence pricing decisions for diverse products including figurines, collectibles, and plush toys.
+#### Overview
+This project utilizes data analytics to explore pricing strategies for Maven Toys, focusing on 50 retail stores in Mexico from January 2022 to September 2023. We examine how factors such as product category, cost, and market demand impact pricing decisions across diverse products, including figurines, collectibles, and plush toys.
 
+#### Data Preprocessing
+- **Scripts**: Cleaning and merging sales, product, and store data from CSV files.
+- **Adjustments**: Modifying data types for cost and price fields to ensure accuracy in processing.
 
-**Data Preprocessing:** Scripts for cleaning and merging sales, product, and store data from CSV files, and adjusting data types for cost and price fields.
+#### Machine Learning Models
+- **XGBRegressor**: Used to predict pricing trends across different product categories and store locations.
+- **Prophet Forecasting Model**: Employed to analyze and understand seasonal effects on toy sales.
 
-**Machine Learning Models:** Implementation of XGBRegressor to predict pricing trends and use of the Prophet forecasting model to understand seasonal effects on toy sales.
+#### Key Findings
+- **Current Pricing Strategy**: Uniform pricing across diverse products results in suboptimal profitability due to varying cost structures and market demands.
+- **Analytical Insights**: Significant seasonal fluctuations in sales and a strong correlation between higher product prices and sales volumes, especially for figurines.
+- **Price Discrimination**: Evident pricing strategy reveals discrimination, with action figures employing premium pricing and animal figures priced standardly, influenced by demand elasticity and perceived value.
 
-**Key Findings**
+#### Strategic Recommendations
+- **Dynamic Pricing**: Implement location-based and product-wise dynamic pricing to enhance profitability and responsiveness to market changes.
+- **Product Focus**: Adjust prices for high-volume, low-margin products like Lego Bricks and Animal Figures, while promoting high-margin products through enhanced marketing strategies.
 
-**Current Pricing Strategy:** Uniform pricing across diverse products leads to suboptimal profitability due to varying cost structures and market demands.
+#### Impact and Challenges
+- **Revenue Growth**: The project employs data-driven decision-making to improve profit margins and secure a competitive advantage.
+- **Challenges**: Achieving consistent pricing across all locations and finding an optimal price for all subcategories remain significant challenges due to insufficient price variation.
 
-**Analytical Insights:** Strong seasonal fluctuations in sales, significant correlation between higher product prices and higher sales, particularly for figurines.
+#### Conclusion
+The analysis underscores the necessity for Maven Toys to adopt flexible, adaptive pricing strategies to meet market demands effectively and enhance consumer satisfaction, ensuring sustained profitability and competitiveness in the market.
 
-**Price Discrimination:** Pricing strategy reveals discrimination, especially between action figures (premium pricing) and animal figures (standard pricing), driven by demand elasticity and perceived value.
-
-**Strategic Recommendations**
-
-**Dynamic Pricing:** Adopt location-based and product-wise dynamic pricing to enhance profitability and adapt to market changes.
-
-**Product Focus:** Strategies for high-volume, low-margin products like Lego Bricks and Animal Figures include price adjustments and enhanced marketing for high-margin products.
-
-
-**Impact and Challenges**
-
-**Revenue Growth:** By employing data-driven decision-making, the project aims to improve profit margins and provide a competitive advantage.
-
-**Challenges:** Maintaining consistent pricing across all locations and finding an optimal price for all subcategories without sufficient variation presents a significant challenge.
-
-**Conclusion**
-
-The analysis highlights the need for Maven Toys to leverage flexible, adaptive pricing strategies to better meet market demands and enhance consumer satisfaction, ensuring long-term profitability and market competitiveness.
